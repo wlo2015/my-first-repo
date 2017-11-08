@@ -1,3 +1,3 @@
 # Guessing Game
-### Make was run at Wed Nov  8 18:49:15 HKT 2017 
-### Number of lines of guessinggame.sh : 28
+### Make was run at Wed Nov  8 19:07:03 HKT 2017 
+### Number of lines of guessinggame.sh : 34

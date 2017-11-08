@@ -9,6 +9,12 @@ function guess {
     bingo=true
   else
     bingo=false
+    if [[ $1 -gt $(ls -al | grep ^- | wc -l) ]]
+    then
+      echo "Your guess was too large"
+    else
+      echo "Your guess was too small"
+    fi
   fi
 #  echo $bingo
 }
